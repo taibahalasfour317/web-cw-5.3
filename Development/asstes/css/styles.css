@@ -1,0 +1,83 @@
+/* 👇🏻قم باإضافة صورة الخلفية */
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 3rem;
+  color: black;
+}
+
+.counter {
+  font-size: 2rem;
+}
+
+/* 👇🏻box shadow استعمل خاصية */
+.counter-box {
+  /* check */
+  flex: 0 0 70%;
+  text-align: center;
+  border: 3px solid grey;
+  /* check */
+  padding: 1rem;
+  font-weight: bold;
+}
+
+/* enhance */
+.btn {
+  background: #fff;
+  border-radius: 8px;
+  font-size: 2rem;
+  /* padding: auto; */
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin: 0.5rem 0.25rem;
+  border: 1.5px solid black;
+  /* box-shadow: 0px 5px black;
+    outline: none; */
+}
+
+.btn-reset {
+  border-radius: 8px;
+  margin: 0.5rem 0.25rem;
+  border: 1.5px solid black;
+  background: url("../reset.png") no-repeat;
+  background-size: 100%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.btn-thekr {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 2em;
+  font-weight: bolder;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.btn-thekr:focus {
+  outline: none;
+}
