@@ -4,13 +4,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-position: center;
+  background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; */
-  color: white;
+    background-repeat: no-repeat;
+    background-image: url(../Thekr1.jpg);
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#backround{
+  height: 100%;
+}
 h1 {
   margin: 0px;
   font-size: 3rem;
@@ -24,12 +27,18 @@ h1 {
 /* 👇🏻box shadow استعمل خاصية */
 .counter-box {
   /* check */
-  flex: 0 0 70%;
+  display: flex ;
+  box-shadow: lightslategray;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  flex: 0 0 70%;
   border: 3px solid grey;
+  box-shadow: 2px 2px 10px black;
   /* check */
   padding: 1rem;
   font-weight: bold;
+  margin-left: 50px;
 }
 
 /* enhance */
@@ -57,6 +66,7 @@ h1 {
 }
 
 .btn-thekr {
+  display: block;
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;
@@ -81,3 +91,22 @@ h1 {
 .btn-thekr:focus {
   outline: none;
 }
+
+.back{
+    display: block;
+    background-color: white;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 2em;
+    font-weight: bolder;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 55px;
+    font-size: 15px;
+    text-align: left;
+    
+  }
+
+
