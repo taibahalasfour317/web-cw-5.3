@@ -11,7 +11,7 @@ const athkar = [
 
 function changeDisplayedThekr() {
   let number =Math.floor(Math.random() * athkar.length);
-  theker.innerHTML = athkar[number].theker;
+  thekr.innerHTML = athkar[number].thekr;
   console.log(number);
 }
 const randomThekr = document.querySelector("#thekr");
